@@ -63,12 +63,19 @@ p {
   align-content: center;
 }
 
+.introducao h1 {
+  font-size: 2rem;
+}
 .botao {
   background: red;
   padding: 15px 15px;
   color: #fff;
   border-radius: 10px;
   text-transform: uppercase;
+}
+
+.botao:hover {
+  background: greenyellow;
 }
 
 .subtitulo {
@@ -94,6 +101,10 @@ p {
 
 .vantagens-item p {
   grid-column: 2;
+}
+
+.vantagens-item:hover {
+  border-left: 3px solid red;
 }
 
 .impar {
