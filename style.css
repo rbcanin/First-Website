@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  margin: 0px;
+  margin: 1rem;
   background: #f7f7f7;
   display: grid;
   gap: 60px;
@@ -42,6 +42,10 @@ p {
   border-radius: 10px;
   color: black;
   text-transform: uppercase;
+  border: 2px solid transparent;
+}
+.menu a:hover {
+  border-color: #900;
 }
 
 .conteudo {
@@ -74,6 +78,7 @@ p {
   text-align: right;
   padding: 40px;
   align-self: center;
+  background-image: url(img/onda.svg);
 }
 
 .vantagens {
@@ -89,4 +94,8 @@ p {
 
 .vantagens-item p {
   grid-column: 2;
+}
+
+.impar {
+  background-color: #f7f7f7;
 }
